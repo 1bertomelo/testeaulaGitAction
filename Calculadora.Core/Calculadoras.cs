@@ -9,7 +9,7 @@
 		public static int Divisao(int n1, int n2)
 		{
 			if (n2 == 0) throw new 
-					Exception("Não é possível dividir por Zero");
+					Exception("Nao e possivel dividir por Zero");
 			return n1 / n2;
 		}
 
