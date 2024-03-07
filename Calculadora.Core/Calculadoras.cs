@@ -12,5 +12,7 @@
 					Exception("Não é possível dividir por Zero");
 			return n1 / n2;
 		}
+
+		
 	}
 }
