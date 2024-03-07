@@ -56,7 +56,7 @@ namespace Calculadora.Tests
 		  var resultadoExcecao = Assert.Throws<Exception>(()
 			  =>	Calculadoras.Divisao(10, 0));
 
-			Assert.Equal("Não é possível dividir por Zero", resultadoExcecao.Message);
+			Assert.Equal("Nao e possivel dividir por Zero", resultadoExcecao.Message);
 
 		} 
 
